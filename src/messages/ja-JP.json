@@ -1,0 +1,23 @@
+{
+  "HomePage": {
+    "title": "私のブログへようこそ",
+    "subtitle": "技術を共有し、日々を記録する"
+  },
+  "Navigation": {
+    "home": "ホーム",
+    "ethers": "Ethers",
+    "wagmi": "Wagmi",
+    "about": "概要"
+  },
+  "AboutPage": {
+    "title": "遠く先まで見通しすぎるのは間違いだ。人は一度に運命の一つの段階しか対処できない。"
+  },
+  "LanguageSwitcher": {
+    "label": "言語",
+    "zh": "中国語",
+    "en": "英語",
+    "hi": "印度語",
+    "zh-HK": "香港語",
+    "ja-JP": "日本語"
+  }
+}

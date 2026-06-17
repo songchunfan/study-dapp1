@@ -1,0 +1,23 @@
+{
+  "HomePage": {
+    "title": "欢迎来到我的博客",
+    "subtitle": "分享技术，记录生活"
+  },
+  "Navigation": {
+    "home": "首页",
+    "ethers": "ethers",
+    "wagmi": "wagmi",
+    "about": "关于"
+  },
+  "AboutPage": {
+    "title": "往前看得太远是个错误，人一次只能处理命运里的一个环节。"
+  },
+  "LanguageSwitcher": {
+    "label": "语言",
+    "zh": "中文",
+    "en": "English",
+    "hi": "हिंदी निंदी",
+    "zh-HK": "香港中文",
+    "ja-JP": "日本語"
+  }
+}

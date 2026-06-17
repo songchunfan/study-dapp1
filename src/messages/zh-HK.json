@@ -1,0 +1,23 @@
+{
+  "HomePage": {
+    "title": "歡迎來到我的部落格",
+    "subtitle": "分享科技，記錄生活"
+  },
+  "Navigation": {
+    "home": "首頁",
+    "ethers": "Ethers",
+    "wagmi": "Wagmi",
+    "about": "關於"
+  },
+  "AboutPage": {
+    "title": "往前看得太遠是個錯誤，人一次只能處理命運裡的一個環節。"
+  },
+  "LanguageSwitcher": {
+    "label": "語言",
+    "zh": "中文",
+    "en": "英文",
+    "hi": "हिंदी निंदी",
+    "zh-HK": "香港中文",
+    "ja-JP": "日本語"
+  }
+}

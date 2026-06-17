@@ -1,0 +1,23 @@
+{
+  "HomePage": {
+    "title": "Welcome to my Blog",
+    "subtitle": "Sharing tech, recording life"
+  },
+  "Navigation": {
+    "home": "Home",
+    "ethers": "Ethers",
+    "wagmi": "Wagmi",
+    "about": "About"
+  },
+  "AboutPage": {
+    "title": "It is a mistake to look too far ahead. Only one link in the chain of destiny can be handled at a time"
+  },
+  "LanguageSwitcher": {
+    "label": "Language",
+    "zh": "中文",
+    "en": "English",
+    "hi": "hi-IN",
+    "zh-HK": "香港中文",
+    "ja-JP": "日本語"
+  }
+}
