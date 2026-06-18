@@ -1,6 +1,7 @@
 "use client"
 import { ConnectButton } from '@rainbow-me/rainbowkit';
 import { Button } from "@/components/ui/button"
+import { ButtonGroup, ButtonGroupSeparator } from "@/components/ui/button-group"
 
 export default function CustomConnectButton() {
   return (
@@ -78,10 +79,19 @@ export default function CustomConnectButton() {
                     )}
                     {chain.name}
                   </Button>
-                  <Button variant="outline" onClick={openAccountModal}>{account.displayName}</Button>
-                  <Button variant="outline" onClick={openAccountModal}>{account.displayBalance
-                    ? ` (${account.displayBalance})`
-                    : 'Balance'}</Button>
+                  <ButtonGroup>
+                    <Button variant="outline" onClick={openAccountModal}>{account.displayName}</Button>
+                    {
+                      account.displayBalance?<>
+                        <ButtonGroupSeparator />
+                        <Button variant="outline" onClick={openAccountModal}>{account.displayBalance}</Button></>:null
+                    }
+                  </ButtonGroup>
+                  <ButtonGroup aria-label="Button group">
+                    <Button>Button 1</Button>
+                    <ButtonGroupSeparator />
+                    <Button>Button 2</Button>
+                  </ButtonGroup>
                 </div>
               );
             })()}
